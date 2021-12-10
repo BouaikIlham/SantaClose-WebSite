@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,13 +6,66 @@
 }
 
 .main {
-    width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(img.jpg) ;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,rgba(0,0,0,0.5)50%), url(img.jpg) ;
     background-position: center;
     background-size: cover;
-    height: 109vh;
-    
-    
+    height: 100vh;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    justify-content: space-around;
 
 }
+
+.navbar .menu {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .menu li {
+    margin: 0 10px;
+    
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:'Questrial', sans-serif ;
+}
+a:hover {
+    text-decoration: underline;
+    color: orange;
+    font-weight: bold;
+}
+
+.logo {
+    color: orange;
+    font-family: 'Questrial', sans-serif;;
+}
+.Scontainer {
+    display: flex;
+}
+.srch {
+    background: transparent;
+    padding: 6px;
+    border: 2px solid orange;
+    font-size: 16px;
+    font-family: 'Questrial', sans-serif;
+    color:oldlace;
+    outline: none;
+    
+}
+.btn {
+    background-color: orange;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid orange;
+    cursor: pointer;
+}
+.btn:hover {
+    color: paleturquoise;
+}
+
 
