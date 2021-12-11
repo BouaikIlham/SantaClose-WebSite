@@ -29,13 +29,13 @@
     
 }
 
-a {
+.link {
     color: whitesmoke;
     text-decoration: none;
     font-size: 17px;
     font-family:'Questrial', sans-serif ;
 }
-a:hover {
+.link:hover {
     text-decoration: underline;
     color: orange;
     font-weight: bold;
@@ -71,28 +71,116 @@ a:hover {
 /*content*/
 
 .content {
-    width: 70%;
+    display: flex;
     color: white;
     font-family:'Lora', serif;
     font-size: 20px;
     padding: 60px 64px;
   }
-  .content h1 span {
-      color: orange;
-      font-weight:bold;
-      font-size: 50px;
-    }
-.join {
+
+.content .content-left {
+    width: 70%;
+}
+.content .content-left  h1 span {
+    color: orange;
+    font-weight:bold;
+    font-size: 50px;
+}
+.content .content-left .join {
     background-color: orange;
     font-family:'Lora', serif ;
+    font-size: 15px;
     border: 2px solid black;
     cursor: pointer;
     padding:  10px 15px;
     margin: 20px;
     border-radius: 10px;
 }
-.join:hover {
-    background-color: brown;
+.content .content-left .join:hover {
+    background-color: wheat;
     font-weight: bold;
 }
+.content .content-right{
+    width: 30%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,rgba(0,0,0,0.5)50%);
+    border-radius: 10px;
+    }
+.content .content-right h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: orange;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 10px;
+}
+.content .content-right input {
+    background: transparent;
+    padding: 7px;
+    margin:  12px 60px;
+    border: 1px solid orange;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.content .content-right .butt {
+    background-color: orange;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 10px 60px;
+    margin: 10px 70px;
+    border-radius: 10px;
+}
+.content .content-right .butt:hover {
+    background-color:wheat;
+    font-weight: bold;
+}
+.content .content-right .pr {
+    color: palegoldenrod;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+}
+.content .content-right a {
+ text-decoration: none;
+  color: orange;
+  display: block;
+  text-align: center;
+  
+}
+.content .content-right span {
+    color: white;
+    font-family:monospace;
+    font-size: 20px;
+}
+.content .content-right .para {
+    margin: 10px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+}
+.content .content-right .icons {
+    color: white;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+.icons :hover {
+    color: orange;
+}
+i {
+  padding: 5px;
+}
+
+
+
+
 
