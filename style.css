@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Questrial&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -60,7 +60,7 @@ a:hover {
 }
 .btn {
     background-color: orange;
-    font-family: 'Oswald', sans-serif;
+    font-family:'Questrial', sans-serif ;
     border: 2px solid orange;
     cursor: pointer;
 }
@@ -68,4 +68,31 @@ a:hover {
     color: paleturquoise;
 }
 
+/*content*/
+
+.content {
+    width: 70%;
+    color: white;
+    font-family:'Lora', serif;
+    font-size: 20px;
+    padding: 60px 64px;
+  }
+  .content h1 span {
+      color: orange;
+      font-weight:bold;
+      font-size: 50px;
+    }
+.join {
+    background-color: orange;
+    font-family:'Lora', serif ;
+    border: 2px solid black;
+    cursor: pointer;
+    padding:  10px 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.join:hover {
+    background-color: brown;
+    font-weight: bold;
+}
 
