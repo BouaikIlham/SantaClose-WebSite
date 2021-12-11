@@ -6,7 +6,7 @@
 }
 
 .main {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,rgba(0,0,0,0.5)50%), url(img.jpg) ;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,rgba(0,0,0,0.5)50%), url(img/img.jpg) ;
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -179,8 +179,3 @@
 i {
   padding: 5px;
 }
-
-
-
-
-
