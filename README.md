@@ -1,3 +1,3 @@
 # SantaClose-WebSite
 - web site
-![SantaClose webSite](./img/capture.PNG)
+![SantaClose-WebSite](./img/capture.PNG)
