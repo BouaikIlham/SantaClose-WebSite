@@ -2,7 +2,7 @@
 
 - Web site
 
-![SantaClose-WebSite](./img/capture.png)
+![SantaClose-WebSite](./img/capture.jpg)
 
 - Built with:
     - HTML5
