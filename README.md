@@ -1,22 +1,18 @@
 # SantaClose-WebSite
 
+- Web site
 
-- web sit
+![SantaClose-WebSite](./img/capture.png)
 
-![SantaClose-WebSite](./img/capture.PNG)
-
-- built with:
-    - html
-    - css
-- using
-
-    - img
+- Built with:
+    - HTML5
+    - CSS3
+- Using
     - font-awesome
 - Authors 
-    - Ilham Bouaik
     -  GitHub : [@bouaik ilham](https://github.com/BouaikIlham)
 - 🤝 Contributing
-    
+
     Contributions, issues and feature requests are welcome!
 - Show your support
 
